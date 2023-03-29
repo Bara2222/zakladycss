@@ -1,0 +1,128 @@
+/* CSS Document */
+body {
+  font-family: sans-serif;
+  background-color: lightgrey
+}
+
+
+#obal{
+  max-width: 960px;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px; 
+  border-color: gray;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+}
+
+
+
+#nav{
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+
+mark{
+  color: white;
+  padding: 2px;
+  background-color: rgb(102,153,0);
+}
+ 
+#nav a{
+  padding: 19px;
+  text-decoration-line: none;
+  color: lightgray;
+}
+
+#nav a:hover{
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  line-height: 2em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(0,153,204);
+  text-transform: uppercase;
+}
+
+h2,h3{
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+abbr {
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+h3 { 
+  font-size: 1.2em;
+  border-color: #333;
+  text-decoration-thickness: 1px;
+  border-style: dotted;
+  border-bottom: 1px;
+}
+
+p, li {
+  line-height: 1.5em;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+b{
+  color: rgb(0,153,204);
+  font-weight: bold;
+}
+
+
+p.poznamka{
+  padding-left: 50px;
+  font-size: 90%; 
+  border-left: solid 10px gray;
+  font-style: italic;
+
+}
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+code{
+  line-height: 1.5em;
+  font-size: 120%;
+  color:black;
+  font-weight: 500;
+}
+
+
